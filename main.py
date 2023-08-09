@@ -10,7 +10,7 @@ PROCESSES = []
 
 
 # Input: "Test"
-# Return: ["Test", "Tes", "Te", "t"]
+# Return: ["Test", "Tes", "Te", "T"]
 def decompose_string(s: str) -> list[str]:
     l = []
     for i in range(len(s)):
